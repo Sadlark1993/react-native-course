@@ -13,7 +13,7 @@ export default function App() {
         style={styles.rootScreen}
         imageStyle={styles.backgroundImage}
       >
-        <StartGameScreen />;
+        <StartGameScreen />
       </ImageBackground>
     </LinearGradient>
   );
