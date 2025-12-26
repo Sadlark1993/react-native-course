@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { View, Text, Pressable, StyleSheet } from 'react-native';
-import Colors from '../shared/Colors';
+import Colors from '../../shared/Colors';
 
 function PrimaryButton({ children, onPress }: { children: ReactNode; onPress: () => void }) {
   return (
