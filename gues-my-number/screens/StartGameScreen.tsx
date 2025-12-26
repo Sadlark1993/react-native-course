@@ -23,7 +23,6 @@ function StartGameScreen({ onPickNumber }: { onPickNumber: (number: number) => v
       return;
     }
 
-    console.log('Valid number!');
     onPickNumber(chosenNumber);
   }
 
