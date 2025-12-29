@@ -23,8 +23,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   numberText: {
+    fontFamily: 'open-sans-bold', // the font that we added using useFonts
     color: Colors.accent500,
     fontSize: 36,
-    fontWeight: 'bold',
+    // fontWeight: 'bold',
   },
 });

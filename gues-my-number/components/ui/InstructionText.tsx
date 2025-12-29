@@ -10,6 +10,7 @@ export default InstructionText;
 
 const styles = StyleSheet.create({
   instructionText: {
+    fontFamily: 'open-sans', // the font that we added using useFonts
     color: Colors.accent500,
     fontSize: 24,
   },
